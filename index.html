@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sana Özel Bir Sürpriz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="gate">
+    <h2>Sürprize erişmek için bir soruyu yanıtla 💭</h2>
+    <p>Ben en çok kimi severim ?</p>
+    <input type="text" id="answer" placeholder="Cevabını yaz...">
+    <br>
+    <button onclick="checkAnswer()">Gönder</button>
+    <p id="error" style="color: red;"></p>
+  </div>
+
+  <div id="content">
+    <h1 id="typeEffect"></h1>
+    <button onclick="showMessage()">Bir şey daha...</button>
+    <div id="secretMessage">Sen bu dünyadaki en özel insansın 🤍</div>
+  </div>
+
+
+  <div id="musicPlayer">
+      <p id="nowPlaying"></p>
+      <audio id="audioPlayer" src="music1.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
