@@ -3,7 +3,7 @@ const noBtn = document.getElementById("noBtn");
 const container = document.getElementById("container");
 
 let escapeCount = 0;
-const maxEscapes = 1;
+const maxEscapes = 15;
 
 noBtn.addEventListener("mouseover", moveButton);
 noBtn.addEventListener("touchstart", moveButton); // mobil destek
